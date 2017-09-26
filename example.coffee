@@ -92,7 +92,7 @@ scroll = new TemplateScrollComponent
     templateItem: templateCell
     gutter: 20
 
-# Original template layer will destroyed from hierarchy
+# Original template layer will be destroyed from hierarchy
 scroll.content.addChild templateCell
 
 scroll.forItemAtIndex = ( index, layer ) ->

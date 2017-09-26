@@ -27,3 +27,14 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Framer Specific
+.*.html
+.app.js
+TemplateScrollComponent.framer/framer/*.old*
+TemplateScrollComponent.framer/framer/.*.hash
+TemplateScrollComponent.framer/framer/backup.coffee
+TemplateScrollComponent.framer/framer/backups/*
+TemplateScrollComponent.framer/framer/manifest.txt
+TemplateScrollComponent.framer/framer/preview.png
+TemplateScrollComponent.framer/framer/social-*x*.png
