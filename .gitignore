@@ -7,7 +7,8 @@
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -26,14 +27,3 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-
-# Framer Specific
-.*.html
-.app.js
-framer/*.old*
-framer/.*.hash
-framer/backup.coffee
-framer/backups/*
-framer/manifest.txt
-framer/preview.png
-framer/social-*x*.png

@@ -5,6 +5,10 @@ TemplateScrollComponent is an extension of Framer's ScrollComponent which simpli
 Use Design view to design your ScrollComponent and template layer. Or simply generate your layers via Code view.
 
 ### How To Use [(Try the live demo)](https://framer.cloud/fqUtD/)
+<a href='https://open.framermodules.com/Template cell ScrollComponent'>
+    <img alt='Install with Framer Modules'
+    src='https://www.framermodules.com/assets/badge@2x.png' width='160' height='40' />
+</a>
 
 or
 
@@ -15,8 +19,9 @@ or
 - Optionally point the scroll component at your template layer, `scroll.prototypeItem = prototypeCell`
 - Define the function `scroll.forItemAtIndex` which will be called for every item. See the example below.
  
- 
- 
+ ![alt screencap](https://github.com/jonmmay/TemplateScrollComponent/blob/master/example.gif?raw=true)
+
+`example.json`
 ```coffeescript
 TemplateScrollComponent = require "TemplateScrollComponent"
 
