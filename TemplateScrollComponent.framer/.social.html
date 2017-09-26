@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<script type="text/javascript">
+		// This automatically sets the right viewport scale on mobile devices
+		(function() {
+ 		var scale = 1 / window.devicePixelRatio
+ 		var viewport = "width=device-width, height=device-height, initial-scale=" + scale + ", maximum-scale=" + scale + ", user-scalable=no"
+ 		var iOS = /iPad|iPhone|iPod/.test(navigator.platform)
+ 		if (iOS) { viewport += ", shrink-to-fit=no" }
+ 		document.write("<meta name=\"viewport\" content=\"" + viewport + "\">")
+		})()
+		</script>
+
+		<link rel="apple-touch-icon" href="framer/images/icon-120.png">
+		<link rel="apple-touch-icon" href="framer/images/icon-76.png" sizes="76x76">
+		<link rel="apple-touch-icon" href="framer/images/icon-120.png" sizes="120x120">
+		<link rel="apple-touch-icon" href="framer/images/icon-152.png" sizes="152x152">
+		<link rel="apple-touch-icon" href="framer/images/icon-180.png" sizes="180x180">
+		<link rel="apple-touch-icon" href="framer/images/icon-192.png" sizes="192x192">
+
+		<link rel="stylesheet" type="text/css" href="framer/style.css?nocache=6d40bc53861208d298f85019e08849ff">
+
+		<script src="framer/coffee-script.js"></script>
+		<script src="framer/framer.js?nocache=d302bd360663dc146bf5d921e2dd228d"></script>
+		<script src="framer/framer.generated.js?nocache=63d9a664d76adafbcedea258e440b536"></script>
+		<script src="framer/framer.modules.js?nocache=54adb8fba829452fd0da883524e6154c"></script>
+		<script src="framer/framer.vekter.js"></script>
+		<script>Framer.Device.hideBezel = false</script><script>document.addEventListener("DOMContentLoaded", function() {window.__framerClientCodeId = 9069;window.__framerNew = function (n,loc,th,i){if (i == null) { return i };i.__framerInstanceInfo = _.defaults({name:n,location:loc,hash:th},i.__framerInstanceInfo);_.defaults(i.__framerInstanceInfo,{name:"Untitled"});return i;};(function() {
+  var TemplateScrollComponent, data, dataFormatter, scroll;
+
+  TemplateScrollComponent = require("TemplateScrollComponent");
+
+  data = [
+    {
+      title: "Hennessey Venom GT",
+      speed: 270.0,
+      unit: "M"
+    }, {
+      title: "Bugatti Chiron",
+      speed: 261.0,
+      unit: "M"
+    }, {
+      title: "Bugatti Veyron Super Sport",
+      speed: 268.0,
+      unit: "M"
+    }, {
+      title: "SSC Ultimate Aero",
+      speed: 256.0,
+      unit: "M"
+    }, {
+      title: "Saleen S7 Twin Turbo",
+      speed: 248.0,
+      unit: "M"
+    }, {
+      title: "Koenigsegg CCR",
+      speed: 242.0,
+      unit: "M"
+    }, {
+      title: "McLaren F1",
+      speed: 241.0,
+      unit: "M"
+    }, {
+      title: "Pagani Huayra BC",
+      speed: 238.0,
+      unit: "M"
+    }, {
+      title: "Zenvo ST1",
+      speed: 233.0,
+      unit: "M"
+    }, {
+      title: "Noble M600",
+      speed: 225.0,
+      unit: "M"
+    }
+  ];
+
+  dataFormatter = {
+    unit: function(val) {
+      return val.toLowerCase();
+    }
+  };
+
+  scroll = window.__framerNew("scroll", "105:13-107:0", "?",new TemplateScrollComponent({
+    wrap: Scroll_view
+  }));
+
+  scroll.props = {
+    scrollHorizontal: false,
+    numberOfItems: data.length,
+    templateItem: Template_cell,
+    gutter: 20
+  };
+
+  scroll.forItemAtIndex = function(index, layer) {
+    var cell;
+    cell = window.__framerNew("cell", "116:8-116:19", "?",layer.copy());
+    TemplateScrollComponent.applyTemplate(cell, data[index], dataFormatter);
+    return cell;
+  };
+
+}).call(this);
+})</script>
+
+	</head>
+	<body>
+	</body>
+</html>

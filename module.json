@@ -1,0 +1,11 @@
+{
+    "name": "Template cell ScrollComponent",
+    "description": "Use a templated cell in Design view to display a list in a ScrollComponent",
+    "author": "Jon May",
+
+    "require": "TemplateScrollComponent = require 'TemplateScrollComponent'",
+    "install": "TemplateScrollComponent.coffee",
+    "example": "example.coffee",
+
+    "thumb": ""
+}
